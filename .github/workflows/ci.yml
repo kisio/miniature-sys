@@ -21,7 +21,7 @@ jobs:
           docker build -t kisio/miniature-sys:${{ env.SHORT_SHA }} .
       - name: login to dockerhub
         run: |
-          echo "${( secrets.DOCKERHUB_TOKEN)}"| docker login -u "${( secrets.DOCKERHUB_USERNAME )}" --password-stdin
+          echo "${( secrets.DOCKERHUB_TOKEN)}"|  docker login -u "${( secrets.DOCKERHUB_USERNAME )}" --password-stdin
       - name: push to dockerhub
         run: |
           docker push kisio/miniature-sys:${{ env.SHORT_SHA }} .
