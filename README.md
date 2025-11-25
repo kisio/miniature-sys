@@ -95,4 +95,3 @@ Before running the project, ensure you have the following installed:
 *   **Ingress Controller**: Implement an Ingress controller for better traffic management.
 
 ---
-*Created by [Your Name] - Aspiring DevOps Engineer*
