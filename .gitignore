@@ -3,3 +3,6 @@
 *.tfstate*
 venv/
 LICENSE.txt
+walkthrough.md
+minikube
+__pycache__/
